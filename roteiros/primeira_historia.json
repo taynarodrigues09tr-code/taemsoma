@@ -1,0 +1,23 @@
+{
+  "titulo": "Sophia e Matheus cuidam de uma plantinha",
+  "status": "rascunho",
+  "objetivo": "Mostrar o valor da cooperação e do cuidado com a natureza.",
+  "personagens": ["Sophia", "Matheus"],
+  "cenas": [
+    {
+      "numero": 1,
+      "descricao": "Sophia e Matheus encontram uma plantinha no jardim.",
+      "narracao": "Sophia e Matheus descobriram uma pequena plantinha e decidiram cuidar dela juntos."
+    },
+    {
+      "numero": 2,
+      "descricao": "Os dois regam a plantinha com a ajuda de um adulto.",
+      "narracao": "Com um pouco de água e muito carinho, cada um fez sua parte."
+    },
+    {
+      "numero": 3,
+      "descricao": "Dias depois, Sophia e Matheus observam uma nova folha.",
+      "narracao": "Cuidar todos os dias trouxe uma surpresa: uma nova folhinha!"
+    }
+  ]
+}

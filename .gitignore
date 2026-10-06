@@ -1,0 +1,14 @@
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+# Arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+.venv/
+# Vídeos locais, que podem ser grandes
+videos/*
+!videos/.gitkeep
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
