@@ -1,5 +1,5 @@
 {
-  "versao": 2,
+  "versao": 3,
   "id": "matheus",
   "nome": "Matheus",
   "personalidade": "energético, espontâneo, engraçado, aventureiro, muito curioso.",
@@ -16,7 +16,7 @@
         "cor": "loiro",
         "comprimento": "curto",
         "textura": "liso",
-        "detalhes": "mechas lisas, sem cachos"
+        "detalhes": "Cabelo loiro curto, de base lisa, com mechas levemente onduladas e desalinhadas conforme a prancha oficial; não adicionar cachos definidos."
       },
       "estilo": "animacao_3d_estilizada",
       "idade_anos": 4,
@@ -29,25 +29,44 @@
       "altura_relativa": "claramente_mais_baixo",
       "roupa_principal": {
         "tipo": "macacao",
-        "diretriz": "Infantil e moderno, com um dinossauro como elemento gráfico principal; não é fantasia de dinossauro.",
-        "assinatura": "Dinossauro gráfico no macacão."
+        "diretriz": "Macacão curto verde com barras dobradas, dinossauro verde e amarelo no peito, pequenas pegadas, bolsos traseiros e botões em tom madeira; camiseta creme com pequenos dinossauros verdes, azuis e amarelos. Não é fantasia de dinossauro.",
+        "assinatura": "Dinossauro gráfico no peito do macacão verde, conforme a prancha oficial."
       }
     },
-    "pendente": [
-      "modelo_visual_final",
-      "paleta_exata",
-      "calcados",
-      "acessorios"
+    "pendente": [],
+    "decisoes_aprovadas": {
+      "modelo_visual_final": "Prancha oficial incluída no ZIP enviado pelo usuário.",
+      "paleta_exata": "Seguir a prancha: macacão verde, camiseta creme com dinossauros, cabelo loiro dourado, pele clara, olhos castanhos, tênis azuis e detalhes amarelos. Sem códigos de cor inventados.",
+      "calcados": "Tênis azuis com cadarços, biqueira e sola brancos e estrela na lateral; meias brancas.",
+      "acessorios": "Sem acessórios adicionais; preservar botões e detalhes da roupa conforme a prancha."
+    },
+    "referencias_aprovadas": [
+      "referencias/personagens/matheus/prancha_oficial.png"
     ],
-    "decisoes_aprovadas": {},
-    "referencias_aprovadas": [],
     "proposta_de_design": {
-      "status": "aguarda_revisao_visual",
-      "roupa": "Macacão verde-sálvia, camiseta creme e um dinossauro simpático em verde-escuro no bolso frontal, sem capuz, cauda, escamas ou volume de fantasia.",
-      "observacao": "A diretriz da roupa é oficial; cores e acabamento são proposta para avaliar nas futuras referências 3D."
+      "status": "substituida_pela_referencia_oficial",
+      "observacao": "A proposta anterior foi substituída pela prancha oficial recebida."
     },
     "referencias_fotograficas": [],
-    "pasta_fotografias": "referencias/fotografias/matheus"
+    "pasta_fotografias": "referencias/fotografias/matheus",
+    "referencia_principal": {
+      "id": "matheus_visual_oficial_01",
+      "origem": "referencias_oficiais_sophia_matheus.zip enviado pelo usuário",
+      "tipo": "prancha_3d_estilizada",
+      "aprovacao": "oficial_pelo_usuario",
+      "arquivo": "referencias/personagens/matheus/prancha_oficial.png",
+      "status_arquivo": "disponivel",
+      "sha256": "8d084ff0f0dcfce4bca9c0e0cb8148c73d20c2bd5389cb8a1dc8e6870efa4518",
+      "conteudo": [
+        "frente",
+        "perfil",
+        "costas",
+        "detalhes",
+        "paleta",
+        "expressões"
+      ],
+      "observacao": "PNG original preservado byte a byte; idade e diferença de altura seguem as regras oficiais, sem inferir escala conjunta a partir das pranchas isoladas."
+    }
   },
   "atuacao": {
     "tracos": [
@@ -70,6 +89,15 @@
     "interesses": [
       "aventuras",
       "descobertas do cotidiano"
+    ],
+    "expressoes_referencia": [
+      "feliz",
+      "sorriso",
+      "risada",
+      "surpreso",
+      "travesso",
+      "curioso",
+      "bravo leve"
     ]
   },
   "regras": {
@@ -90,5 +118,5 @@
     ],
     "figurino": "Manter o macacão principal como assinatura visual. Mudanças temporárias exigem justificativa no episódio e registro de continuidade; não alteram a aparência física nem substituem a roupa permanente."
   },
-  "status_visual": "em_definicao"
+  "status_visual": "aprovado"
 }

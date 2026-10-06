@@ -1,5 +1,5 @@
 {
-  "versao": 2,
+  "versao": 4,
   "id": "sophia",
   "nome": "Sophia",
   "personalidade": "curiosa, observadora, criativa, inteligente, determinada.",
@@ -16,7 +16,7 @@
         "cor": "castanho-escuro",
         "comprimento": "curto",
         "textura": "cacheado",
-        "detalhes": "cachos bem definidos"
+        "detalhes": "Cachos bem definidos e volumosos, conforme vistas frontal, lateral e traseira da prancha oficial; preservar o contorno e a distribuição dos cachos."
       },
       "estilo": "animacao_3d_estilizada",
       "idade_anos": 9,
@@ -29,25 +29,44 @@
       "altura_relativa": "claramente_mais_alta",
       "roupa_principal": {
         "tipo": "macacao",
-        "diretriz": "Moderno e bonito, inspirado em uma pequena artista, com bolsos para materiais artísticos e pequenos detalhes gráficos sutis; sem excesso de cores.",
-        "assinatura": "Bolsos artísticos e detalhes gráficos discretos."
+        "diretriz": "Macacão roxo de pequena artista, com estampas de respingos de tinta, corações e estrelas em rosa, amarelo e azul; bolso frontal com coração rosa e materiais artísticos, costuras contrastantes, ferragens douradas e barras dobradas.",
+        "assinatura": "Macacão roxo artístico com coração rosa no bolso frontal e lápis coloridos; seguir a prancha oficial, sem acrescentar novas estampas ou mudar sua distribuição."
       }
     },
-    "pendente": [
-      "modelo_visual_final",
-      "paleta_exata",
-      "calcados",
-      "acessorios"
+    "pendente": [],
+    "decisoes_aprovadas": {
+      "modelo_visual_final": "Prancha oficial de Sophia enviada pelo usuário nesta conversa, com frente, perfil, costas, detalhes e expressões.",
+      "paleta_exata": "Usar as cores da prancha oficial: pele parda, cabelo castanho-escuro, roxo e lilás no macacão, camiseta rosa-clara, rosa vivo nos laços e tênis, ferragens douradas e detalhes amarelos e azuis. Não inventar códigos de cor a partir da imagem exibida.",
+      "calcados": "Tênis rosa de cano alto, cadarços brancos, biqueira e sola brancas, coração branco na lateral e detalhe de coração no calcanhar.",
+      "acessorios": "Laços rosa no cabelo, pequenos elementos coloridos conforme a prancha; lápis coloridos no bolso frontal do macacão."
+    },
+    "referencias_aprovadas": [
+      "referencias/personagens/sophia/prancha_oficial.png"
     ],
-    "decisoes_aprovadas": {},
-    "referencias_aprovadas": [],
     "proposta_de_design": {
-      "status": "aguarda_revisao_visual",
-      "roupa": "Macacão de sarja azul-petróleo, camiseta creme, bolso frontal para lápis e pequeno bordado de traço de lápis; costuras discretas em ocre.",
-      "observacao": "A diretriz da roupa é oficial; cores e acabamento são proposta para avaliar nas futuras referências 3D."
+      "status": "substituida_pela_referencia_oficial",
+      "observacao": "A proposta anterior azul-petróleo e creme foi substituída pelo visual aprovado pelo usuário."
     },
     "referencias_fotograficas": [],
-    "pasta_fotografias": "referencias/fotografias/sophia"
+    "pasta_fotografias": "referencias/fotografias/sophia",
+    "referencia_principal": {
+      "id": "sophia_visual_oficial_01",
+      "origem": "referencias_oficiais_sophia_matheus.zip enviado pelo usuário",
+      "tipo": "prancha_3d_estilizada",
+      "aprovacao": "oficial_pelo_usuario",
+      "arquivo": "referencias/personagens/sophia/prancha_oficial.png",
+      "status_arquivo": "disponivel",
+      "sha256": "ddf3fa8f7718e081ca1aac778da9fd555c3214dd295595952f70d71648180467",
+      "conteudo": [
+        "frente",
+        "perfil",
+        "costas",
+        "detalhes",
+        "paleta",
+        "expressões"
+      ],
+      "observacao": "PNG original preservado byte a byte; idade e diferença de altura seguem as regras oficiais, sem inferir escala conjunta a partir das pranchas isoladas."
+    }
   },
   "atuacao": {
     "tracos": [
@@ -70,6 +89,14 @@
     "interesses": [
       "desenhar",
       "atividades artísticas"
+    ],
+    "expressoes_referencia": [
+      "alegre",
+      "brincalhona",
+      "surpresa",
+      "pensativa",
+      "risonha",
+      "curiosa"
     ]
   },
   "regras": {
@@ -90,5 +117,5 @@
     ],
     "figurino": "Manter o macacão principal como assinatura visual. Mudanças temporárias exigem justificativa no episódio e registro de continuidade; não alteram a aparência física nem substituem a roupa permanente."
   },
-  "status_visual": "em_definicao"
+  "status_visual": "aprovado"
 }

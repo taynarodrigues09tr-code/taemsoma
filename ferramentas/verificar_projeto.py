@@ -1,5 +1,6 @@
 """Confere a estrutura dos personagens e roteiros, sem serviços externos."""
 import json
+import hashlib
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -72,6 +73,13 @@ def verificar():
             raise ValueError(f"{nome}: status visual inválido.")
         if status == "aprovado" and (pendentes or not referencias):
             raise ValueError(f"{nome}: aprovação exige decisões completas e referências.")
+        principal = ficha.get("referencia_principal", {})
+        if status == "aprovado":
+            if principal.get("status_arquivo") != "disponivel" or principal.get("arquivo") not in referencias:
+                raise ValueError(f"{nome}: referência principal não está disponível ou registrada.")
+            original = (RAIZ / principal["arquivo"]).read_bytes()
+            if not original.startswith(b"\x89PNG\r\n\x1a\n") or hashlib.sha256(original).hexdigest() != principal.get("sha256"):
+                raise ValueError(f"{nome}: integridade da referência principal inválida.")
         fotos = ficha.get("referencias_fotograficas")
         if not isinstance(fotos, list):
             raise ValueError(f"{nome}: lista de fotografias inválida.")

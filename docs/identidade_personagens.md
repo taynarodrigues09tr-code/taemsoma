@@ -38,30 +38,23 @@ O verificador detecta conflitos de decisões, relações incorretas entre os irm
 
 O próximo passo é receber fotografias, desenvolver os modelos 3D e revisar as referências visuais, incluindo uma vista conjunta para fixar a diferença de escala.
 
-## Roupas como assinatura visual
+## Referências oficiais recebidas
 
-Sophia usa macacão moderno de pequena artista, com bolsos para materiais e detalhes gráficos sutis, sem excesso de cores. Matheus usa macacão infantil moderno com dinossauro gráfico, sem virar fantasia. Essas diretrizes são oficiais e permanentes.
+As pranchas de Sophia e Matheus foram recebidas em `referencias_oficiais_sophia_matheus.zip` e extraídas sem modificar os PNGs:
 
-`proposta_de_design` descreve uma primeira opção de cores e acabamento: azul-petróleo e creme para Sophia; verde-sálvia e creme para Matheus. São propostas, não referências aprovadas. As fichas continuam com `status_visual: em_definicao` até a aprovação do modelo final. Uma roupa temporária deve ser justificada pelo episódio e nunca muda idade, pele, olhos, cabelo ou proporções físicas.
+- `referencias/personagens/sophia/prancha_oficial.png`
+- `referencias/personagens/matheus/prancha_oficial.png`
 
-## Como receber fotografias oficiais
+Ambas as fichas estão com `status_visual: aprovado`. Cada prancha está em `referencias_aprovadas` e no registro `referencia_principal`, com caminho, origem e SHA-256. O verificador detecta mudanças nos bytes dos arquivos; uma substituição futura exige revisão deliberada da ficha e do hash.
 
-Guarde as fotos nos diretórios locais:
+Sophia usa macacão roxo com estampas artísticas, camiseta rosa-clara, laços rosa e tênis rosa. Sua prancha substitui a proposta azul-petróleo e a orientação anterior de cores discretas. Matheus usa macacão curto verde com dinossauro no peito e pegadas, camiseta creme com pequenos dinossauros e tênis azuis. As propostas anteriores de figurino foram substituídas pelos visuais oficiais.
 
-- `referencias/fotografias/sophia/`
-- `referencias/fotografias/matheus/`
+O cabelo de Matheus tem mechas levemente onduladas na prancha; use essa forma como referência, mantendo o cabelo curto de base lisa e sem cachos definidos. As idades oficiais continuam 9 e 4 anos. Sophia deve ser claramente mais alta; as pranchas isoladas não definem uma escala numérica conjunta.
 
-Use nomes simples como `frente.jpg`, `perfil.jpg` e `corpo_inteiro.jpg`. Estas pastas têm arquivos marcadores `.gitkeep` para existir no GitHub; as fotografias ficam ignoradas pelo Git e não serão enviadas automaticamente. Ainda não recebemos fotografias.
+Não inclua títulos, legendas, quadros ou decoração do layout nas futuras cenas. O programa confere integridade e registros, mas não avalia automaticamente a consistência das imagens geradas.
 
-Registre cada foto em `ficha_visual.referencias_fotograficas` na ficha correspondente, apenas depois de o arquivo existir. Exemplo para Sophia:
+## Fotografias pessoais futuras
 
-```json
-[
-  {
-    "arquivo": "referencias/fotografias/sophia/frente.jpg",
-    "descricao": "Fotografia oficial de referência, vista de frente."
-  }
-]
-```
+Estas pranchas são desenhos 3D oficiais, não fotografias. Caso fotografias sejam fornecidas depois, guarde-as em `referencias/fotografias/sophia/` ou `referencias/fotografias/matheus/`. Essas pastas continuam ignoradas pelo Git, exceto pelos marcadores `.gitkeep`.
 
-Os caminhos são relativos à pasta do projeto. Fotografias ajudam a desenvolver o personagem, mas não aprovam automaticamente a versão 3D. As imagens 3D aprovadas continuam nas pastas `referencias/personagens/` e na lista `referencias_aprovadas`. Revise qualquer divergência com a ficha; não substitua os traços oficiais automaticamente. O verificador confere caminhos e existência, não o conteúdo ou formato das imagens.
+Registre fotografias em `ficha_visual.referencias_fotograficas` somente após o arquivo existir, usando um objeto com `arquivo` (caminho relativo ao projeto) e `descricao`. Elas são insumos de desenvolvimento e não substituem automaticamente as pranchas oficiais.
