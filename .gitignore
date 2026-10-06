@@ -12,3 +12,6 @@ videos/*
 # Arquivos do sistema operacional
 .DS_Store
 Thumbs.db
+# Fotografias pessoais usadas como referência ficam locais
+referencias/fotografias/*/*
+!referencias/fotografias/*/.gitkeep

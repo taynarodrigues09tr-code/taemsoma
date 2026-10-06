@@ -6,7 +6,9 @@ Esta primeira versão organiza o trabalho. Ainda não gera vídeos, não acessa 
 
 ## Como o projeto está organizado
 
-- `personagens/`: descrição dos personagens para manter sua aparência e personalidade consistentes.
+- `personagens/`: fichas permanentes de Sophia e Matheus, com decisões definidas e pendentes.
+- `identidade/`: regras compartilhadas de estilo e consistência entre cenas.
+- `referencias/personagens/`: imagens aprovadas de cada personagem, quando forem criadas.
 - `roteiros/`: histórias divididas em cenas. O exemplo inicial é uma sugestão editável.
 - `docs/`: orientações para as próximas etapas.
 - `videos/`: lugar para guardar vídeos localmente; esses arquivos não são enviados ao GitHub.
@@ -27,7 +29,7 @@ O resultado esperado é `Projeto inicial válido: 2 personagens e 1 roteiro.` Is
 
 ## Por onde começar
 
-1. Leia `personagens/sophia.json` e `personagens/matheus.json`. As descrições são sugestões; podemos adaptá-las às suas ideias.
+1. Leia `docs/identidade_personagens.md` e as fichas em `personagens/`. Os traços definidos estão registrados; as escolhas visuais restantes estão marcadas como pendentes.
 2. Leia `roteiros/primeira_historia.json` para ver como dividimos uma história em cenas.
 3. Consulte `docs/proximos_passos.md`. Vamos fazer uma pequena etapa de cada vez.
 

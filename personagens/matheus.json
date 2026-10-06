@@ -1,6 +1,94 @@
 {
+  "versao": 2,
+  "id": "matheus",
   "nome": "Matheus",
-  "personalidade": "Alegre, cooperativo e interessado em descobrir coisas novas.",
-  "aparencia": "A definir antes de gerar as primeiras cenas.",
-  "observacao": "Personagem fictício. Descrição inicial para revisão."
+  "personalidade": "energético, espontâneo, engraçado, aventureiro, muito curioso.",
+  "aparencia": "Menino de 4 anos, pele clara, olhos castanhos, cabelo loiro curto e liso.",
+  "relacao": {
+    "tipo": "irmaos",
+    "irmao_id": "sophia",
+    "papel": "irmao_menor"
+  },
+  "ficha_visual": {
+    "definido": {
+      "genero_apresentacao": "menino",
+      "cabelo": {
+        "cor": "loiro",
+        "comprimento": "curto",
+        "textura": "liso",
+        "detalhes": "mechas lisas, sem cachos"
+      },
+      "estilo": "animacao_3d_estilizada",
+      "idade_anos": 4,
+      "tom_de_pele": "clara",
+      "olhos": {
+        "cor": "castanhos",
+        "expressividade": "infantis e expressivos"
+      },
+      "proporcoes_gerais": "Infantis, formas suaves e amigáveis; corpo de menino de 4 anos, menor e com cabeça proporcionalmente maior e membros mais curtos que os da irmã.",
+      "altura_relativa": "claramente_mais_baixo",
+      "roupa_principal": {
+        "tipo": "macacao",
+        "diretriz": "Infantil e moderno, com um dinossauro como elemento gráfico principal; não é fantasia de dinossauro.",
+        "assinatura": "Dinossauro gráfico no macacão."
+      }
+    },
+    "pendente": [
+      "modelo_visual_final",
+      "paleta_exata",
+      "calcados",
+      "acessorios"
+    ],
+    "decisoes_aprovadas": {},
+    "referencias_aprovadas": [],
+    "proposta_de_design": {
+      "status": "aguarda_revisao_visual",
+      "roupa": "Macacão verde-sálvia, camiseta creme e um dinossauro simpático em verde-escuro no bolso frontal, sem capuz, cauda, escamas ou volume de fantasia.",
+      "observacao": "A diretriz da roupa é oficial; cores e acabamento são proposta para avaliar nas futuras referências 3D."
+    },
+    "referencias_fotograficas": [],
+    "pasta_fotografias": "referencias/fotografias/matheus"
+  },
+  "atuacao": {
+    "tracos": [
+      "energético",
+      "espontâneo",
+      "engraçado",
+      "aventureiro",
+      "muito curioso"
+    ],
+    "gestos": "Explora com entusiasmo, faz perguntas e brincadeiras; aprende a ouvir e colaborar com a irmã.",
+    "expressoes": [
+      "alegria",
+      "curiosidade",
+      "surpresa",
+      "concentracao",
+      "tristeza",
+      "frustracao"
+    ],
+    "regra": "Variar emoções de modo legível e natural, preservando o rosto e as proporções aprovadas.",
+    "interesses": [
+      "aventuras",
+      "descobertas do cotidiano"
+    ]
+  },
+  "regras": {
+    "permanente": [
+      "nome",
+      "relacao",
+      "ficha_visual.definido",
+      "ficha_visual.decisoes_aprovadas",
+      "atuacao.tracos"
+    ],
+    "variavel_por_cena": [
+      "expressao",
+      "pose",
+      "acao",
+      "enquadramento",
+      "iluminacao",
+      "cenario"
+    ],
+    "figurino": "Manter o macacão principal como assinatura visual. Mudanças temporárias exigem justificativa no episódio e registro de continuidade; não alteram a aparência física nem substituem a roupa permanente."
+  },
+  "status_visual": "em_definicao"
 }

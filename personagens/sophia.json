@@ -1,6 +1,94 @@
 {
+  "versao": 2,
+  "id": "sophia",
   "nome": "Sophia",
-  "personalidade": "Curiosa, gentil e criativa.",
-  "aparencia": "A definir antes de gerar as primeiras cenas.",
-  "observacao": "Personagem fictícia. Descrição inicial para revisão."
+  "personalidade": "curiosa, observadora, criativa, inteligente, determinada.",
+  "aparencia": "Menina de 9 anos, pele parda, olhos castanhos grandes e expressivos, cabelo castanho-escuro curto e cacheado, com cachos bem definidos.",
+  "relacao": {
+    "tipo": "irmaos",
+    "irmao_id": "matheus",
+    "papel": "irma_mais_velha"
+  },
+  "ficha_visual": {
+    "definido": {
+      "genero_apresentacao": "menina",
+      "cabelo": {
+        "cor": "castanho-escuro",
+        "comprimento": "curto",
+        "textura": "cacheado",
+        "detalhes": "cachos bem definidos"
+      },
+      "estilo": "animacao_3d_estilizada",
+      "idade_anos": 9,
+      "tom_de_pele": "parda",
+      "olhos": {
+        "cor": "castanhos",
+        "expressividade": "grandes e expressivos"
+      },
+      "proporcoes_gerais": "Infantis, formas suaves e amigáveis; corpo de menina de 9 anos, mais alta e com membros proporcionalmente mais alongados que os do irmão.",
+      "altura_relativa": "claramente_mais_alta",
+      "roupa_principal": {
+        "tipo": "macacao",
+        "diretriz": "Moderno e bonito, inspirado em uma pequena artista, com bolsos para materiais artísticos e pequenos detalhes gráficos sutis; sem excesso de cores.",
+        "assinatura": "Bolsos artísticos e detalhes gráficos discretos."
+      }
+    },
+    "pendente": [
+      "modelo_visual_final",
+      "paleta_exata",
+      "calcados",
+      "acessorios"
+    ],
+    "decisoes_aprovadas": {},
+    "referencias_aprovadas": [],
+    "proposta_de_design": {
+      "status": "aguarda_revisao_visual",
+      "roupa": "Macacão de sarja azul-petróleo, camiseta creme, bolso frontal para lápis e pequeno bordado de traço de lápis; costuras discretas em ocre.",
+      "observacao": "A diretriz da roupa é oficial; cores e acabamento são proposta para avaliar nas futuras referências 3D."
+    },
+    "referencias_fotograficas": [],
+    "pasta_fotografias": "referencias/fotografias/sophia"
+  },
+  "atuacao": {
+    "tracos": [
+      "curiosa",
+      "observadora",
+      "criativa",
+      "inteligente",
+      "determinada"
+    ],
+    "gestos": "Observa detalhes, faz perguntas e propõe ideias; demonstra determinação sem impedir a participação do irmão.",
+    "expressoes": [
+      "alegria",
+      "curiosidade",
+      "surpresa",
+      "concentracao",
+      "tristeza",
+      "frustracao"
+    ],
+    "regra": "Variar emoções de modo legível e natural, preservando o rosto e as proporções aprovadas.",
+    "interesses": [
+      "desenhar",
+      "atividades artísticas"
+    ]
+  },
+  "regras": {
+    "permanente": [
+      "nome",
+      "relacao",
+      "ficha_visual.definido",
+      "ficha_visual.decisoes_aprovadas",
+      "atuacao.tracos"
+    ],
+    "variavel_por_cena": [
+      "expressao",
+      "pose",
+      "acao",
+      "enquadramento",
+      "iluminacao",
+      "cenario"
+    ],
+    "figurino": "Manter o macacão principal como assinatura visual. Mudanças temporárias exigem justificativa no episódio e registro de continuidade; não alteram a aparência física nem substituem a roupa permanente."
+  },
+  "status_visual": "em_definicao"
 }

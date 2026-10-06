@@ -1,0 +1,70 @@
+{
+  "versao": 2,
+  "canal": {
+    "conceito": "aprender brincando",
+    "publico": "infantil",
+    "faixa_etaria": "a_definir",
+    "abordagem": "Transformar descobertas do cotidiano em aventuras divertidas e educativas.",
+    "temas": [
+      "ciência",
+      "natureza",
+      "espaço",
+      "matemática",
+      "emoções",
+      "profissões",
+      "música",
+      "criatividade"
+    ]
+  },
+  "estilo": {
+    "id": "animacao_3d_estilizada",
+    "direcao": [
+      "personagens carismáticos e expressivos",
+      "visual moderno e colorido",
+      "alta qualidade",
+      "identidade própria"
+    ],
+    "regras": [
+      "Manter a mesma linguagem visual nos personagens e cenários.",
+      "Criar uma identidade original sem usar personagens ou franquias existentes como modelo.",
+      "Manter formas, materiais e proporções consistentes com as referências aprovadas.",
+      "Rostos infantis expressivos e formas suaves e amigáveis, adequados a uma série infantil de alta qualidade."
+    ]
+  },
+  "precedencia": [
+    "ficha permanente e decisões aprovadas",
+    "referências visuais aprovadas compatíveis com a ficha",
+    "planejamento da cena"
+  ],
+  "continuidade": [
+    "Não trocar os atributos de Sophia e Matheus.",
+    "Preservar cabelo, rosto, proporções e cores aprovados mesmo em outro cenário ou iluminação.",
+    "Expressões e poses não podem redesenhar a identidade.",
+    "Trajes temáticos não substituem a roupa base permanente.",
+    "Registrar acessórios e figurino para evitar mudanças involuntárias entre cenas.",
+    "Idades, tons de pele, olhos, cabelo e proporções gerais são permanentes; a aparência física não muda entre cenas.",
+    "Sophia mantém cabelo castanho-escuro curto e cacheado, com cachos definidos, e olhos castanhos grandes e expressivos.",
+    "Matheus mantém cabelo loiro curto e liso e olhos castanhos.",
+    "Roupa principal de Sophia: macacão de pequena artista, com bolsos e detalhes sutis, sem excesso de cores.",
+    "Roupa principal de Matheus: macacão com dinossauro gráfico como assinatura; nunca uma fantasia de dinossauro.",
+    "Mudanças temporárias de roupa precisam de justificativa no episódio; não mudam a identidade física."
+  ],
+  "revisao_por_cena": [
+    "Reconhecemos os dois irmãos pelas fichas e referências?",
+    "Cabelo, rosto, proporções e roupa correspondem às escolhas aprovadas?",
+    "As expressões e ações combinam com os personagens e a história?",
+    "A cena mantém o estilo 3D e a continuidade com a cena anterior?",
+    "A descoberta educativa está clara e adequada ao público?",
+    "A diferença de idade e altura entre Sophia e Matheus permanece clara?",
+    "As assinaturas dos macacões estão corretas ou a troca de roupa está justificada no episódio?"
+  ],
+  "aprovacao_visual": "Antes da geração de cenas, definir todos os campos pendentes e registrar referências aprovadas. O verificador não avalia imagens nem garante consistência visual.",
+  "mudancas_permanentes": "Alterar deliberadamente a ficha, atualizar referências e incrementar sua versão; nunca incorporar automaticamente uma variação gerada em uma cena.",
+  "relacao_visual": {
+    "mais_velha": "sophia",
+    "menor": "matheus",
+    "regra": "Sophia tem 9 anos e é claramente mais alta; Matheus tem 4 anos e é claramente menor. Preservar diferença de idade e escala corporal em todas as cenas, mesmo com perspectiva ou enquadramentos diferentes. Não igualar as alturas nem fazer os dois parecerem da mesma idade.",
+    "escala_numerica": "A definir na referência conjunta; não inferir medidas reais a partir das fotografias."
+  },
+  "referencias_fotograficas": "Fotografias são insumos para desenvolver a identidade 3D, não aprovação de um modelo final. Respeitar as características oficiais; se houver divergência, revisar antes de alterar a ficha. Não copiar roupas ou cenários das fotos automaticamente."
+}
